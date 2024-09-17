@@ -77,8 +77,8 @@ func (lb *LoadBalancer) serveProxy(rw http.ResponseWriter, req *http.Request) {
 func main() {
 	servers := []Server{
 		newSimpleServer("https://snapcraft.io"),
-		newSimpleServer("https://github.com/hahahamid"),
 		newSimpleServer("https://ubuntu.com"),
+		newSimpleServer("https://github.com/hahahamid"),
 		newSimpleServer("https://linuxmint.com"),
 		newSimpleServer("https://debian.org"),
 		newSimpleServer("https://redhat.com"),
