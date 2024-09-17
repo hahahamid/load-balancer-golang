@@ -80,8 +80,8 @@ func main() {
 		newSimpleServer("https://ubuntu.com"),
 		newSimpleServer("https://github.com/hahahamid"),
 		newSimpleServer("https://linuxmint.com"),
-		newSimpleServer("https://debian.org"),
-		newSimpleServer("https://redhat.com"),
+		// newSimpleServer("https://debian.org"),
+		// newSimpleServer("https://redhat.com"),
 	}
 	lb := NewLoadBalancer("3000", servers)
 	handleRedirect := func(rw http.ResponseWriter, req *http.Request) {
