@@ -12,7 +12,7 @@ A simple and efficient load balancer implemented in Go. This project demonstrate
 - **No limit on server URLs:** The number of proxy servers can be added single-handedly.
 - **Improves overall reliability:** Improves the reliability of the network by efficient distribution of requests.
 
-[![Watch the video](vid.mp4)](Video)
+[![Watch the video](vid.mp4)](vid.mp4)
 
 
 ## Features
